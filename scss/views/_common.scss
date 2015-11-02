@@ -1,0 +1,38 @@
+/* Body
+ *******************************************/
+body { 
+	padding: 70px 0; 
+}
+
+/* Main Navigation
+ *******************************************/
+ // Highlight active menu item.
+.current-menu-item {
+	@extend .active;
+}
+.menu-item-has-children {
+	// Hide & Display submenu
+	.sub-menu {
+		display: none;
+	}
+	&:hover {
+		.sub-menu {
+			display: block;
+			position: absolute;
+			background: #f8f8f8;
+			padding: 10px 15px;
+			list-style: none;
+			width: 150%;
+		}
+	}
+}
+
+/* Footer
+ *******************************************/
+
+// Footer Navigation
+footer {
+	.footer-copyright {
+		line-height: 49px;
+	}
+}

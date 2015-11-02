@@ -1,0 +1,21 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "..."
+  },
+  "dependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "^2.4.3",
+    "gulp-git": "~0.4.0",
+    "gulp-imagemin": "*",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "*",
+    "gulp-newer": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.4.2",
+    "tiny-lr": "*"
+  }
+}

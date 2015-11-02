@@ -1,0 +1,29 @@
+/*!
+Theme Name: themeName
+Theme URI: themeURI
+Author: themeAuthor
+AuthorURI: authorURI
+Description: themeDescription
+Version: 1.0
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Text Domain: themeTextDomain
+*/
+
+/* LIBS
+ *******************************************/
+@import "libs/bootstrap/bootstrap";
+
+/* MODULES
+ *******************************************/
+@import "modules/fonts";
+
+/* PARTIALS
+ *******************************************/
+
+/* PAGE/VIEW SPECIFIC
+ *******************************************/
+@import "views/common";
+
+/* RESPONSIVE
+ *******************************************/
